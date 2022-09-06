@@ -16,4 +16,25 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        pass
+        length = len(nums)
+        low = 0
+        high = length - 1
+        mid = (high-low)//2
+        FOUND = None
+        while FOUND is None:
+            lower = nums[mid] > nums[low]  # mid > low 
+            upper = nums[high] > nums[mid] # high > mid
+            
+            if lower and upper:
+                FOUND = nums[mid]
+            if not lower and upper:
+                # low stays same
+                high = mid # high becomes mid
+                mid = (high-low)//2
+            if lower and not upper:
+                # high stays same
+                low = mid # low becomes mid
+                mid = (high-low)//2
+        return FOUND 
+
+# RESULTS: time limit exceeded
