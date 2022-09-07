@@ -19,22 +19,28 @@ class Solution(object):
         length = len(nums)
         low = 0
         high = length - 1
-        mid = (high-low)//2
+        mid = (high+low)//2
         FOUND = None
-        while FOUND is None:
+        counter = 10
+        while counter:
             lower = nums[mid] > nums[low]  # mid > low 
             upper = nums[high] > nums[mid] # high > mid
-            
+            print(low,mid,high)
             if lower and upper:
-                FOUND = nums[mid]
+                FOUND = nums[low]
             if not lower and upper:
                 # low stays same
                 high = mid # high becomes mid
-                mid = (high-low)//2
+                mid = (high+low)//2
             if lower and not upper:
                 # high stays same
                 low = mid # low becomes mid
-                mid = (high-low)//2
+                mid = (high+low)//2
+            counter -= 1
         return FOUND 
+
+sol = Solution().findMin([8,9,10,1,2,3,4,5,6,7])
+
+print(sol)
 
 # RESULTS: time limit exceeded
