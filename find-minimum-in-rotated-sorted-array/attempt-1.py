@@ -24,22 +24,23 @@ class Solution(object):
         counter = 10
         while counter:
             lower = nums[mid] > nums[low]  # mid > low 
-            upper = nums[high] > nums[mid] # high > mid
+            midder = nums[high] > nums[mid] # high > mid
+            upper = nums[high] > nums[low] # high > low
             print(low,mid,high)
-            if lower and upper:
+            if lower and midder and upper:
                 FOUND = nums[low]
-            if not lower and upper:
+            if not lower and midder:
                 # low stays same
                 high = mid # high becomes mid
                 mid = (high+low)//2
-            if lower and not upper:
+            if lower and not midder:
                 # high stays same
                 low = mid # low becomes mid
                 mid = (high+low)//2
             counter -= 1
         return FOUND 
 
-sol = Solution().findMin([8,9,10,1,2,3,4,5,6,7])
+sol = Solution().findMin([5,6,4,3])
 
 print(sol)
 
