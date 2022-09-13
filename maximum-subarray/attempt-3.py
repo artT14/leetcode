@@ -9,7 +9,7 @@ class Solution(object):
             CURR = max(CURR+nums[i],nums[i]) # KEEP ADDING OR FRESH START?
             MAX = max(CURR,MAX) # IS THE CURRENT SUM BEATING THE MAX?
         return MAX
-    
+
 """
 Success
 Details 
