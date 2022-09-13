@@ -21,27 +21,27 @@ class Solution(object):
         high = length - 1
         mid = (high+low)//2
         FOUND = None
-        counter = 10
-        while counter:
-            lower = nums[mid] > nums[low]  # mid > low 
-            midder = nums[high] > nums[mid] # high > mid
-            upper = nums[high] > nums[low] # high > low
+        while FOUND is None:
             print(low,mid,high)
-            if lower and midder and upper:
+            if nums[low] < nums[high]:
                 FOUND = nums[low]
-            if not lower and midder:
-                # low stays same
-                high = mid # high becomes mid
+            elif (high - mid <= 1) and (mid - low <= 1):
+                FOUND = min(nums[low],nums[mid],nums[high])
+            if nums[low] > nums[mid] and nums[mid] < nums[high]:
+                high = mid
                 mid = (high+low)//2
-            if lower and not midder:
-                # high stays same
-                low = mid # low becomes mid
+            if nums[low] < nums[mid] and nums[mid] > nums[high]:
+                low = mid
                 mid = (high+low)//2
-            counter -= 1
         return FOUND 
 
-sol = Solution().findMin([5,6,4,3])
+sol = Solution().findMin([1,2])
 
 print(sol)
 
-# RESULTS: time limit exceeded
+"""
+Success
+Details 
+Runtime: 34 ms, faster than 71.38% of Python online submissions for Find Minimum in Rotated Sorted Array.
+Memory Usage: 13.6 MB, less than 80.99% of Python online submissions for Find Minimum in Rotated Sorted Array.
+"""
