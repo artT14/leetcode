@@ -21,4 +21,5 @@ class Solution(object):
         :type target: int
         :rtype: int
         """
-        
+        # STEP 1: FIND PIVOT POINT
+		# STEP 2: DO BINARY SEARCH USING PIVOT POINT
