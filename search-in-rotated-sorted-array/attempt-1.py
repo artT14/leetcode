@@ -23,3 +23,34 @@ class Solution(object):
         """
         # STEP 1: FIND PIVOT POINT
 		# STEP 2: DO BINARY SEARCH USING PIVOT POINT
+        length = len(nums)
+        low = 0
+        high = length - 1
+        mid = (high+low)//2
+        PIVOT = None
+        while PIVOT is None:
+            print(low,mid,high)
+            if nums[low] < nums[high]:
+                PIVOT = low
+            elif (high - mid <= 1) and (mid - low <= 1):
+                check_low = min(0, nums[mid] - nums[low])
+                check_high = min(0, nums[mid] - nums[high])
+                if check_low and check_high:
+                    PIVOT = high
+                if not check_low and not check_high:
+                    PIVOT = mid
+                if check_low and not check_high:
+                    PIVOT = low
+            if nums[low] > nums[mid] and nums[mid] < nums[high]:
+                high = mid
+                mid = (high+low)//2
+            if nums[low] < nums[mid] and nums[mid] > nums[high]:
+                low = mid
+                mid = (high+low)//2
+        return PIVOT
+
+sol = Solution().search([4,5,6,7,0,1,2,3],0)
+print(sol)
+
+# OUT OF TIME
+# CHECK SOLUTION https://leetcode.com/problems/search-in-rotated-sorted-array/discuss/2595571/my-solution
