@@ -10,5 +10,5 @@ class Solution(object):
         """
         ans=[]
         for i in range(n+1):
-            ans.append(format(n,"b").count("1"))
+            ans.append(format(i,"b").count("1"))
         return ans
