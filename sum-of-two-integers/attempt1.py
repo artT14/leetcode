@@ -10,3 +10,6 @@ class Solution(object):
             a = a ^ b
             b = carry << 1
         return a
+    
+s = Solution()
+s.getSum(1,-1)
