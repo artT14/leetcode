@@ -25,7 +25,7 @@ DONE Counting Bits - https://leetcode.com/problems/counting-bits/
 
 Dynamic Programming
 
-- Climbing Stairs - https://leetcode.com/problems/climbing-stairs/
+DONE Climbing Stairs - https://leetcode.com/problems/climbing-stairs/
 - Coin Change - https://leetcode.com/problems/coin-change/
 - Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/
 - Longest Common Subsequence -
