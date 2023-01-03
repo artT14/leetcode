@@ -49,6 +49,7 @@ DONE Number of Islands - https://leetcode.com/problems/number-of-islands/
 - Alien Dictionary (Leetcode Premium) - https://leetcode.com/problems/alien-dictionary/
 - Graph Valid Tree (Leetcode Premium) - https://leetcode.com/problems/graph-valid-tree/
 - Number of Connected Components in an Undirected Graph (Leetcode Premium) - https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+DONE Max Area of Island https://leetcode.com/problems/max-area-of-island/submissions/870191495/
 
 ---
 
