@@ -52,6 +52,9 @@ DONE Longest Consecutive Sequence - https://leetcode.com/problems/longest-consec
 DONE Max Area of Island -  https://leetcode.com/problems/max-area-of-island/submissions/870191495/
 DONE Surrounded Regions - https://leetcode.com/problems/surrounded-regions/
 DONE Rotting Oranges - https://leetcode.com/problems/rotting-oranges/
+- Course Schedule II - https://leetcode.com/problems/course-schedule-ii/
+- Redundant Connection - https://leetcode.com/problems/redundant-connection/
+- Word Ladder - https://leetcode.com/problems/word-ladder/
 
 
 ---
