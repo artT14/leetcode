@@ -42,7 +42,7 @@ DONE Longest Common Subsequence - https://leetcode.com/problems/longest-common-s
 Graph
 
 DONE Clone Graph - https://leetcode.com/problems/clone-graph/
-- Course Schedule - https://leetcode.com/problems/course-schedule/
+DONE Course Schedule - https://leetcode.com/problems/course-schedule/
 DONE Pacific Atlantic Water Flow - https://leetcode.com/problems/pacific-atlantic-water-flow/
 DONE Number of Islands - https://leetcode.com/problems/number-of-islands/
 DONE Longest Consecutive Sequence - https://leetcode.com/problems/longest-consecutive-sequence/
