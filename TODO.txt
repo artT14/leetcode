@@ -31,7 +31,7 @@ DONE Longest Increasing Subsequence - https://leetcode.com/problems/longest-incr
 DONE Longest Common Subsequence - https://leetcode.com/problems/longest-common-subsequence/
 RVW DONE Word Break Problem - https://leetcode.com/problems/word-break/
 RVW DONE Combination Sum - https://leetcode.com/problems/combination-sum-iv/
-- House Robber - https://leetcode.com/problems/house-robber/
+RVW DONE House Robber - https://leetcode.com/problems/house-robber/
 - House Robber II - https://leetcode.com/problems/house-robber-ii/
 - Decode Ways - https://leetcode.com/problems/decode-ways/
 - Unique Paths - https://leetcode.com/problems/unique-paths/
