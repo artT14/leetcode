@@ -53,8 +53,8 @@ DONE Max Area of Island -  https://leetcode.com/problems/max-area-of-island/subm
 DONE Surrounded Regions - https://leetcode.com/problems/surrounded-regions/
 DONE Rotting Oranges - https://leetcode.com/problems/rotting-oranges/
 DONE Course Schedule II - https://leetcode.com/problems/course-schedule-ii/
-- Redundant Connection - https://leetcode.com/problems/redundant-connection/
-- Word Ladder - https://leetcode.com/problems/word-ladder/
+DONE Redundant Connection - https://leetcode.com/problems/redundant-connection/
+- !HARD! Word Ladder - https://leetcode.com/problems/word-ladder/
 
 
 ---
