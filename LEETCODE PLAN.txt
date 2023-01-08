@@ -1,9 +1,9 @@
 # PLAN
 GRIND 5 EASIES
-Take 1hr break
-GRIND 2 MEDIUMS from NEETCODE150 or BLINK75
-Take 1hr break
-REVIEW 2 MEDIUMS you have done already
+    -OR-
+GRIND 2-3 MEDIUMS from NEETCODE150/BLINK75
+    -OR-
+REVIEW 2-3 MEDIUMS you have done already
 
 # TIME CONSTAINTS FOR PROBLEMS
 EASY - 20 mins
