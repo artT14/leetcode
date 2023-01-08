@@ -21,14 +21,14 @@ class Solution(object):
         
         def dfs(i,cur, total):
             if total == target: # success
-                res.append(cur.copy()) # append succesfuls sum to results
+                res.append(cur[:]) # append succesfuls sum to results
                 return # stop this branch
             if i >= len(candidates) or total > target: # if index out of bounds or exceed target
                 return # stop this branch
             cur.append(candidates[i]) # add candidate @ i to current list
             dfs(i,cur, total+candidates[i]) # recurse dfs including i
             cur.pop() # take out candidate @ i from current list
-            dfs(i+1,cur, total+candidates[i]) # recurse dfs not including i
+            dfs(i+1,cur, total) # recurse dfs not including i
         
         dfs(0,[],0) # start dfs at i=0
         return res # return the results
