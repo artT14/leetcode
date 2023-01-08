@@ -15,3 +15,16 @@ class Solution(object):
         :type edges: List[List[int]]
         :rtype: List[int]
         """
+        hm = {v:[] for v in range(1,len(edges)+1)}
+        def dfs(start,end,referrer=None):
+            if start == end:
+                return True
+            for neighbour in hm[start]:
+                if neighbour != referrer:
+                    if dfs(neighbour,end,start): return True
+            return False
+        for v1,v2 in edges:
+            if dfs(v1,v2): return [v1,v2]
+            hm[v1].append(v2)
+            hm[v2].append(v1)
+        #ACCEPTED
