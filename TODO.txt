@@ -38,6 +38,7 @@ RVW House Robber II - https://leetcode.com/problems/house-robber-ii/
 - Jump Game - https://leetcode.com/problems/jump-game/
 DONE Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring/
 DONE Palindromic Substrings - https://leetcode.com/problems/palindromic-substrings/
+ - Decode Ways - https://leetcode.com/problems/decode-ways/
 
 ---
 
