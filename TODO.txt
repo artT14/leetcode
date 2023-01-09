@@ -10,6 +10,7 @@ DONE Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-m
 DONE Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/
 DONE 3Sum - https://leetcode.com/problems/3sum/
 DONE Container With Most Water - https://leetcode.com/problems/container-with-most-water/
+DONE Valid Anagram - https://leetcode.com/problems/valid-anagram/
 
 ---
 
@@ -39,7 +40,7 @@ DONE Palindromic Substrings - https://leetcode.com/problems/palindromic-substrin
 - Unique Paths - https://leetcode.com/problems/unique-paths/
 - Jump Game - https://leetcode.com/problems/jump-game/
 DONE Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
-- Min Cost Climbing Stairs - https://leetcode.com/problems/min-cost-climbing-stairs/
+DONE Min Cost Climbing Stairs - https://leetcode.com/problems/min-cost-climbing-stairs/
 - Partition Equal Subset Sum - https://leetcode.com/problems/partition-equal-subset-sum/
 
 ---
