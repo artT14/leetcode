@@ -33,12 +33,13 @@ RVW DONE Word Break Problem - https://leetcode.com/problems/word-break/
 RVW DONE Combination Sum - https://leetcode.com/problems/combination-sum-iv/
 RVW DONE House Robber - https://leetcode.com/problems/house-robber/
 RVW House Robber II - https://leetcode.com/problems/house-robber-ii/
-- Decode Ways - https://leetcode.com/problems/decode-ways/
-- Unique Paths - https://leetcode.com/problems/unique-paths/
-- Jump Game - https://leetcode.com/problems/jump-game/
+DONE Decode Ways - https://leetcode.com/problems/decode-ways/
 DONE Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring/
 DONE Palindromic Substrings - https://leetcode.com/problems/palindromic-substrings/
- - Decode Ways - https://leetcode.com/problems/decode-ways/
+- Unique Paths - https://leetcode.com/problems/unique-paths/
+- Jump Game - https://leetcode.com/problems/jump-game/
+- Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
+- Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/
 
 ---
 
