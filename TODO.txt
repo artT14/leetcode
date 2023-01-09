@@ -39,7 +39,6 @@ DONE Palindromic Substrings - https://leetcode.com/problems/palindromic-substrin
 - Unique Paths - https://leetcode.com/problems/unique-paths/
 - Jump Game - https://leetcode.com/problems/jump-game/
 DONE Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
-- Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/
 - Min Cost Climbing Stairs - https://leetcode.com/problems/min-cost-climbing-stairs/
 - Partition Equal Subset Sum - https://leetcode.com/problems/partition-equal-subset-sum/
 
