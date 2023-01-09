@@ -38,7 +38,7 @@ DONE Longest Palindromic Substring - https://leetcode.com/problems/longest-palin
 DONE Palindromic Substrings - https://leetcode.com/problems/palindromic-substrings/
 - Unique Paths - https://leetcode.com/problems/unique-paths/
 - Jump Game - https://leetcode.com/problems/jump-game/
-- Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
+DONE Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
 - Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/
 - Min Cost Climbing Stairs - https://leetcode.com/problems/min-cost-climbing-stairs/
 - Partition Equal Subset Sum - https://leetcode.com/problems/partition-equal-subset-sum/
@@ -52,15 +52,15 @@ DONE Course Schedule - https://leetcode.com/problems/course-schedule/
 DONE Pacific Atlantic Water Flow - https://leetcode.com/problems/pacific-atlantic-water-flow/
 DONE Number of Islands - https://leetcode.com/problems/number-of-islands/
 DONE Longest Consecutive Sequence - https://leetcode.com/problems/longest-consecutive-sequence/
-- Alien Dictionary (Leetcode Premium) - https://leetcode.com/problems/alien-dictionary/
-- Graph Valid Tree (Leetcode Premium) - https://leetcode.com/problems/graph-valid-tree/
-- Number of Connected Components in an Undirected Graph (Leetcode Premium) - https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 DONE Max Area of Island -  https://leetcode.com/problems/max-area-of-island/submissions/870191495/
 DONE Surrounded Regions - https://leetcode.com/problems/surrounded-regions/
 DONE Rotting Oranges - https://leetcode.com/problems/rotting-oranges/
 DONE Course Schedule II - https://leetcode.com/problems/course-schedule-ii/
 DONE Redundant Connection - https://leetcode.com/problems/redundant-connection/
 - !HARD! Word Ladder - https://leetcode.com/problems/word-ladder/
+- Alien Dictionary (Leetcode Premium) - https://leetcode.com/problems/alien-dictionary/
+- Graph Valid Tree (Leetcode Premium) - https://leetcode.com/problems/graph-valid-tree/
+- Number of Connected Components in an Undirected Graph (Leetcode Premium) - https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 
 
 ---
