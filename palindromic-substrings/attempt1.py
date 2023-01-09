@@ -12,7 +12,7 @@ class Solution(object):
         :rtype: int
         """
         count = 0
-        for i in len(s):
+        for i in range(len(s)):
             r, l = i, i
             # odd palindrome
             while l >= 0 and r < len(s) and s[l] == s[r]:
