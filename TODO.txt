@@ -14,7 +14,7 @@ DONE Valid Anagram - https://leetcode.com/problems/valid-anagram/
 DONE Group Anagrams - https://leetcode.com/problems/group-anagrams/
 DONE Top K Frequent Elements - https://leetcode.com/problems/top-k-frequent-elements/submissions/875042818/
 DONE Valid Sudoku - https://leetcode.com/problems/valid-sudoku/
- - Longest Consecutive Sequence - https://leetcode.com/problems/longest-consecutive-sequence/
+DONE Longest Consecutive Sequence - https://leetcode.com/problems/longest-consecutive-sequence/
 
 ---
 
@@ -138,3 +138,10 @@ Heap
 - Merge K Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists/
 - Top K Frequent Elements - https://leetcode.com/problems/top-k-frequent-elements/
 - Find Median from Data Stream - https://leetcode.com/problems/find-median-from-data-stream/
+
+---
+
+Two Pointers
+
+DONE Valid Palindrome - https://leetcode.com/problems/valid-palindrome/
+
